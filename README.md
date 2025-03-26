@@ -8,11 +8,11 @@ Following files can be identified in the repository:
 4. agent.py - the RL agent, open this file to train/test your model
 
 The following things are included in the state passed to the agent to train/test:
-i. relative position of the gap between the next pair of pipes
-ii. velocity of the bird along the y-axis
+1. relative position of the gap between the next pair of pipes
+2. velocity of the bird along the y-axis
 
 The following reward system was used:
-i. A reward of +0.5 if the bird aligns along the y-axis with the gap between the next pair of pipes.
-ii. A reward of -1 if the bird crashes with any pipe
-iii. A reward of -2 if the bird crashes with the top/bottom of the screen
-iv. A reward of 0 otherwise
+1. A reward of +0.5 if the bird aligns along the y-axis with the gap between the next pair of pipes.
+2. A reward of -1 if the bird crashes with any pipe
+3. A reward of -2 if the bird crashes with the top/bottom of the screen
+4. A reward of 0 otherwise
