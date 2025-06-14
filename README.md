@@ -16,3 +16,4 @@ The following reward system was used:
 2. A reward of -1 if the bird crashes with any pipe
 3. A reward of -2 if the bird crashes with the top/bottom of the screen
 4. A reward of 0 otherwise
+![image](https://github.com/user-attachments/assets/2aa7bf6c-5b4d-48a2-95b4-e74ca2ce959b)
